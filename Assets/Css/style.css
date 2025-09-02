@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgb(244, 58, 58);
+  text-align: center;
+}
+.aside {
+  display: flex;
+}
+.Left {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(248, 248, 107);
+  height: 650px;
+  width: 300px;
+}
+.Right {
+  display: flex;
+
+  justify-content: center;
+  background-color: rgb(113, 229, 117);
+  height: 650px;
+  width: 300px;
+}
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 650px;
+  width: 1000px;
+}
+.Footer {
+  background-color: rgb(107, 164, 228);
+  text-align: center;
+  justify-content: end;
+  padding: 6px;
+}
